@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run dev
 
       # 部署到 GitHub Pages
-      - name: Deploy
+      - name: Deploy.de 
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
