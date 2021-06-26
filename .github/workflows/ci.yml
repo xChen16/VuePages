@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run dev
 
       - name: deploy
-        run: deploy.sh
+        run: sh deploy.sh
 
       # 部署到 GitHub Pages
       - name: Deploy.de 
